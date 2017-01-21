@@ -1,0 +1,19 @@
+settings =
+{
+	android = {
+		-- android > 6
+		usesPermissions = {
+			"android.permission.WRITE_EXTERNAL_STORAGE",
+			"android.permission.READ_EXTERNAL_STORAGE",
+		}
+	},
+	plugins = {
+		["externalStorage.cardIO"] =
+	        {
+	            publisherId = "tech.scotth",
+	            supportedPlatforms = { 
+	                android = true,
+            	},
+	        },
+	},
+}
