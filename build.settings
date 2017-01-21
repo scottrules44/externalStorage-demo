@@ -8,7 +8,7 @@ settings =
 		}
 	},
 	plugins = {
-		["externalStorage.cardIO"] =
+		["plugin.externalStorage"] =
 	        {
 	            publisherId = "tech.scotth",
 	            supportedPlatforms = { 
