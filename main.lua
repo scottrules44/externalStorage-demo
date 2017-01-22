@@ -83,7 +83,7 @@ saveAndPrintFile.x, saveAndPrintFile.y = display.contentCenterX, display.content
 --request premission for 6.0+
 native.showPopup( "requestAppPermission", {
    appPermission = "Storage", urgency = "Critical", listener= function ( e )
-   	-- body
+   	
    end} )
 --other things to print off
 print("print system info")
