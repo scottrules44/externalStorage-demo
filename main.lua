@@ -88,6 +88,7 @@ native.showPopup( "requestAppPermission", {
 --other things to print off
 print("print system info")
 print( "----------------" )
-print("MB of total space"..externalStorage.totalSpace().."/".."MB of available space"..externalStorage.spaceAvailable())
-print("SD card hooked up and readable and writable?"..externalStorage.isSdCardConnected())
+print("MB of total space: "..externalStorage.totalSpace().." / MB of available space: "..externalStorage.spaceAvailable())
+print("SD card hooked up and readable and writable?:")
+print(externalStorage.isSdCardConnected())
 print( "----------------" )
