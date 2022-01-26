@@ -10,9 +10,9 @@ logo.x, logo.y = display.contentCenterX, 50
 ---------------------------------------------------------------------------------------
 
 local function Button1Released(e)
-	native.showPopup( "requestAppPermission", {  appPermission = "Storage",
-												 urgency = "Critical",
-												 listener = function ( e )   end } )
+	externalStorage.requestExternalStorage(function (ev)
+		print(ev.status)
+	end)
 	return true
 end
 
