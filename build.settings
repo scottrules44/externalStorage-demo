@@ -5,15 +5,14 @@ settings =
 		usesPermissions = {
 			"android.permission.WRITE_EXTERNAL_STORAGE",
 			"android.permission.READ_EXTERNAL_STORAGE",
+			"android.permission.MANAGE_EXTERNAL_STORAGE"
 		}
 	},
 	plugins = {
 		["plugin.externalStorage"] =
 	        {
 	            publisherId = "tech.scotth",
-	            supportedPlatforms = { 
-	                android = true,
-            	},
+	            marketplaceId = "insert marketplace account ID",
 	        },
 	},
 }
